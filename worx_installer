@@ -587,7 +587,7 @@ function mainmenu() {
 clear
 options=("${GREEN}1:${NC}${YELLOW} Install full Masternode${NC}" "${GREEN}2:${NC}${YELLOW} Install CLI Staking Wallet Only${NC}" "${GREEN}3:${NC}${YELLOW} Quit and get me out of here${NC}")
 echo -e "Welcome to the linux installer for ..."
-echo -e "$(FgLtGreen)${Bold} ▄▄▌ ▐ ▄▌      ▄▄▄  ▐▄• ▄ "
+echo -e "${FgLtGreen}${Bold} ▄▄▌ ▐ ▄▌      ▄▄▄  ▐▄• ▄ "
 echo -e " ██· █▌▐█▪     ▀▄ █· █▌█▌▪"
 echo -e " ██▪▐█▐▐▌ ▄█▀▄ ▐▀▀▄  ·██· "
 echo -e " ▐█▌██▐█▌▐█▌.▐▌▐█•█▌▪▐█·█▌"
