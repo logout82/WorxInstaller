@@ -303,13 +303,6 @@ listen=1
 server=1
 daemon=1
 port=$COIN_PORT
-addnode=80.211.93.102
-addnode=80.211.239.62
-addnode=80.211.83.135
-addnode=80.211.188.62
-addnode=188.40.224.93
-
-
 
 EOF
 
@@ -347,6 +340,13 @@ maxconnections=128
 masternode=1
 externalip=$EXTERNALIP
 masternodeprivkey=$COINKEY
+
+addnode=80.211.93.102
+addnode=80.211.239.62
+addnode=80.211.83.135
+addnode=80.211.188.62
+addnode=188.40.224.93
+
 EOF
 
 if [ -d $(eval echo $COIN_BACKUP) ]; then 
@@ -368,6 +368,12 @@ maxconnections=25
 masternode=0
 staking=1
 externalip=$EXTERNALIP
+
+addnode=80.211.93.102
+addnode=80.211.239.62
+addnode=80.211.83.135
+addnode=80.211.188.62
+addnode=188.40.224.93
 
 EOF
 
