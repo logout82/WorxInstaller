@@ -14,8 +14,8 @@ COIN_BOOTSTRAP_URL='https://worxcoin.io/'
 COIN_BOOTSTRAP_HASH=''
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Worx'
-COIN_PORT=31313
-RPC_PORT=3300
+COIN_PORT=3300
+RPC_PORT=31313
 COIN_CLI_COMMAND=$(eval echo $COIN_PATH$COIN_CLI)
 COIND_COMMAND=$(eval echo $COIN_PATH$COIN_DAEMON)
 STARTCMD=$(eval echo $COIND_COMMAND -daemon -conf=$CFFULLPATH -datadir=$CONFIGFOLDER)
@@ -303,6 +303,13 @@ listen=1
 server=1
 daemon=1
 port=$COIN_PORT
+addnode=80.211.93.102
+addnode=80.211.239.62
+addnode=80.211.83.135
+addnode=80.211.188.62
+addnode=188.40.224.93
+
+
 
 EOF
 
